@@ -18,8 +18,9 @@
                     {{content}}
                 </div>
                 
-                <div class="container large gh-content">
-                    {{comments title="{{t 'Member discussion'}}" count=false}}
+                <div class="container large gh-content comment-section">
+                    <h2>{{t "Member discussion"}}</h2>
+                    {{comments title="" count=false}}
                 </div>
 
                 {{!-- A signup call to action is displayed here, unless viewed as a logged-in member --}}
