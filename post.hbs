@@ -18,8 +18,8 @@
                     {{content}}
                 </div>
                 
-                <div class="container medium">
-                {{comments}}
+                <div class="container large gh-content">
+                    {{comments title="{{t 'Member discussion'}}" count=false}}
                 </div>
 
                 {{!-- A signup call to action is displayed here, unless viewed as a logged-in member --}}
@@ -40,7 +40,7 @@
                         {{/unless}}
                     {{/unless}}
                 {{/if}}
-                
+
                 {{!-- Hiding the author and sharing sections
                 <div class="container medium">
                     {{> share}}
